@@ -2,7 +2,7 @@ const messageSchema = require("./messageSchema");
 let mongoose = require("mongoose");
 
 var chatSchema = new mongoose.Schema({
-  roomName: String,
+  roomName: { type: String, required: true },
   chats: [
     {
       messageSchema,

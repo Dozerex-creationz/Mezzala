@@ -11,8 +11,10 @@
     "cors": "^2.8.5",
     "dotenv": "",
     "express": "",
+    "express-session": "^1.17.3",
+    "http": "0.0.1-security",
     "mongoose": "^6.3.4",
-    "nodemon": ""
+    "socket.io": "^4.5.1"
   },
   "author": "dozerex",
   "license": "MIT"
